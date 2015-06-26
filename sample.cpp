@@ -32,7 +32,11 @@ typedef pair < int ,int > PII;
 LL power(LL a , LL b){
 	LL x = 1 , y = a;
 	while(b){
+<<<<<<< HEAD
 			if(b%2==1)
+=======
+			if(b&1)
+>>>>>>> 26af193e9d0981a045220b0fdb172cb16ceb7e7e
 				x = x*y;	
 			y *= y;
 			b/=2;
@@ -44,6 +48,10 @@ int main()
 	   LL a , b;
 	   cin >> a >> b;
 	   cout << power(a,b) << endl;	       
+<<<<<<< HEAD
        return 0;
+=======
+      return 0;
+>>>>>>> 26af193e9d0981a045220b0fdb172cb16ceb7e7e
 }
 
