@@ -41,7 +41,7 @@ LL power(LL a , LL b){
 }
 int main()
 {
-	   LL a , b;
+	   long long int a , b;
 	   cin >> a >> b;
 	   cout << power(a,b) << endl;	       
        return 0;
